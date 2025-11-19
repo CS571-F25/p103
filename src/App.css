@@ -1,8 +1,43 @@
+:root {
+  --ctc-dark-green: #0e6c62;
+  --ctc-light-green: #c8dbd2;
+  --ctc-pink: #f6d1d7;
+  --ctc-white: #ffffff;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.navbar {
+  background-color: var(--ctc-dark-green) !important;
+}
+
+.card-header {
+  background-color: var(--ctc-dark-green) !important;
+}
+
+.btn-primary {
+  background-color: var(--ctc-dark-green);
+  border-color: var(--ctc-dark-green);
+}
+
+.btn-primary:hover {
+  background-color: #0a4f47;
+  border-color: #0a4f47;
+}
+
+.bg-light {
+  background-color: var(--ctc-light-green) !important;
+}
+
+.nav-link.active-link {
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
+  font-weight: bold;
 }
 
 .logo {
