@@ -3,7 +3,7 @@ function Footer() {
     <footer className="mt-5 py-4" style={{ backgroundColor: "var(--ctc-dark-green)", color: "white" }}>
       <div className="container text-center">
         <p className="mb-1">Code to Connect - UW-Madison</p>
-        <p className="mb-1">Email: codetoconnect@wisc.edu</p>
+        <p className="mb-1">Email: codetoconnect.uw@gmail.com</p>
         <p className="mb-1">
           <a href="http://linkedin.com/company/code-to-connect" className="text-white" target="_blank" rel="noopener noreferrer">
             LinkedIn
