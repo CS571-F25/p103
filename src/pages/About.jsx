@@ -1,4 +1,5 @@
 import TeamMember from "../components/TeamMember";
+import PageHeader from "../components/PageHeader";
 
 function About() {
   const team = [
@@ -14,9 +15,10 @@ function About() {
 
   return (
     <div className="container mt-4">
-      <h1>About Us</h1>
-      <p>Code to Connect is a student organization at UW-Madison dedicated to teaching coding skills and fostering community.</p>
-      <p>We welcome students of all experience levels.</p>
+      <PageHeader
+        header="About Us"
+        subheader="Code to Connect is a student organization at UW-Madison dedicated to teaching coding skills and fostering community. We welcome students of all experience levels."
+      />
 
       <h2 className="mt-5">Board Members</h2>
       <div className="row">

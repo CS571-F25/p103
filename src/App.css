@@ -40,6 +40,36 @@
   font-weight: bold;
 }
 
+/* Pink accent styles */
+.page-header h1 {
+  border-bottom: 4px solid var(--ctc-pink);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.card {
+  border-left: 4px solid var(--ctc-pink) !important;
+}
+
+.btn-outline-primary {
+  color: var(--ctc-dark-green);
+  border-color: var(--ctc-pink);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--ctc-pink);
+  border-color: var(--ctc-pink);
+  color: var(--ctc-dark-green);
+}
+
+.text-pink {
+  color: var(--ctc-pink) !important;
+}
+
+.bg-pink {
+  background-color: var(--ctc-pink) !important;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

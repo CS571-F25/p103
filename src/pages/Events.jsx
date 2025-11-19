@@ -1,10 +1,13 @@
 import UpcomingEvents from "../components/UpcomingEvents";
+import PageHeader from "../components/PageHeader";
 
 function Events() {
   return (
     <div className="container mt-4">
-      <h1>Events</h1>
-      <p>Check out our upcoming workshops and meetings.</p>
+      <PageHeader
+        header="Events"
+        subheader="Check out our upcoming workshops and meetings."
+      />
       <UpcomingEvents />
     </div>
   );
