@@ -1,18 +1,6 @@
 import { Link } from "react-router";
-import { RoughNotation } from "react-rough-notation";
-import { useState, useEffect } from "react";
 
 function Hero() {
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsDesktop(window.innerWidth >= 768);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   return (
     <div className="bg-light py-5 mb-4">
       <div className="container text-center py-4">
@@ -20,15 +8,7 @@ function Hero() {
           UW-Madison Student Organization
         </p>
         <h1 className="display-3 fw-bold mb-4">
-          {isDesktop ? (
-            <RoughNotation type="highlight" show={true} color="#f6d1d7" iterations={1} multiline={true}>
-              Code to Connect
-            </RoughNotation>
-          ) : (
-            <span style={{ backgroundColor: "#f6d1d7", padding: "0.1em 0.2em" }}>
-              Code to Connect
-            </span>
-          )}
+          Code to Connect
         </h1>
         <p className="lead text-muted mb-4 mx-auto" style={{ maxWidth: "600px" }}>
           Learn to code, build projects, and connect with a supportive community of students at all experience levels.

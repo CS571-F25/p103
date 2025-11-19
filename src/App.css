@@ -48,13 +48,13 @@
 
 .btn-outline-primary {
   color: var(--ctc-dark-green);
-  border-color: var(--ctc-pink);
+  border-color: var(--ctc-dark-green);
 }
 
 .btn-outline-primary:hover {
-  background-color: var(--ctc-pink);
-  border-color: var(--ctc-pink);
-  color: var(--ctc-dark-green);
+  background-color: var(--ctc-dark-green);
+  border-color: var(--ctc-dark-green);
+  color: var(--ctc-white);
 }
 
 .text-pink {
