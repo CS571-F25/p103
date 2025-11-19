@@ -1,4 +1,5 @@
 import EventCard from "./EventCard";
+import { RoughNotation } from "react-rough-notation";
 
 function UpcomingEvents() {
   const events = [
@@ -7,9 +8,16 @@ function UpcomingEvents() {
   ];
 
   return (
-    <div className="container mt-4">
-      <h2>Upcoming Events</h2>
-      <div className="row row-cols-1 row-cols-md-3 g-4">
+    <div className="container mt-5 mb-5">
+      <div className="text-center mb-4">
+        <h2 className="fw-bold">
+          <RoughNotation type="underline" show={true} color="#f6d1d7" strokeWidth={3} iterations={1}>
+            Upcoming Events
+          </RoughNotation>
+        </h2>
+        <p className="text-muted">Don't miss out on our latest workshops and meetups</p>
+      </div>
+      <div className="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
         {events.map((event) => (
           <EventCard
             key={event.id}
