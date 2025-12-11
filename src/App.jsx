@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Events from "./pages/Events";
+import JoinNow from "./pages/JoinNow";
 import Footer from "./components/Footer";
 import "./App.css";
 
@@ -28,6 +29,7 @@ function App() {
               <li className="nav-item"><NavLink className={({ isActive }) => `nav-link ${isActive ? "active-link" : ""}`} to="/" end>Home</NavLink></li>
               <li className="nav-item"><NavLink className={({ isActive }) => `nav-link ${isActive ? "active-link" : ""}`} to="/about">About</NavLink></li>
               <li className="nav-item"><NavLink className={({ isActive }) => `nav-link ${isActive ? "active-link" : ""}`} to="/events">Events</NavLink></li>
+              <li className="nav-item"><NavLink className={({ isActive }) => `nav-link ${isActive ? "active-link" : ""}`} to="/join-now">Join Now</NavLink></li>
               <li className="nav-item"><NavLink className={({ isActive }) => `nav-link ${isActive ? "active-link" : ""}`} to="/contact">Contact</NavLink></li>
             </ul>
           </div>
@@ -37,6 +39,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/join-now" element={<JoinNow />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

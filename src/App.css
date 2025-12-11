@@ -1,7 +1,8 @@
 :root {
-  --ctc-dark-green: #0e6c62;
-  --ctc-light-green: #c8dbd2;
-  --ctc-pink: #f6d1d7;
+  --ctc-dark-green: #084d45;
+  --ctc-medium-green: #1b9d88;
+  --ctc-light-green: #d4f1e8;
+  --ctc-accent-green: #063832;
   --ctc-white: #ffffff;
 }
 
@@ -16,6 +17,34 @@
   background-color: var(--ctc-dark-green) !important;
 }
 
+.navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #f0f0f0 !important;
+}
+
+footer {
+  background-color: var(--ctc-dark-green) !important;
+  color: #ffffff !important;
+}
+
+footer a {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+footer a:hover {
+  color: #f0f0f0 !important;
+}
+
+footer span {
+  color: #ffffff !important;
+}
+
 .card-header {
   background-color: var(--ctc-dark-green) !important;
 }
@@ -26,12 +55,16 @@
 }
 
 .btn-primary:hover {
-  background-color: #0a4f47;
-  border-color: #0a4f47;
+  background-color: var(--ctc-accent-green);
+  border-color: var(--ctc-accent-green);
 }
 
 .bg-light {
   background-color: var(--ctc-light-green) !important;
+}
+
+.bg-light .text-muted {
+  color: #495057 !important;
 }
 
 .nav-link.active-link {
@@ -40,10 +73,8 @@
   font-weight: bold;
 }
 
-/* Pink accent styles */
-
 .card {
-  border-left: 4px solid var(--ctc-pink) !important;
+  border-left: 4px solid var(--ctc-medium-green) !important;
 }
 
 .btn-outline-primary {
@@ -55,14 +86,6 @@
   background-color: var(--ctc-dark-green);
   border-color: var(--ctc-dark-green);
   color: var(--ctc-white);
-}
-
-.text-pink {
-  color: var(--ctc-pink) !important;
-}
-
-.bg-pink {
-  background-color: var(--ctc-pink) !important;
 }
 
 .logo {

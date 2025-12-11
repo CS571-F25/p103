@@ -9,7 +9,7 @@ function TeamMember({ name, role, bio }) {
           >
             {name.charAt(0).toUpperCase()}
           </div>
-          <h5 className="card-title">{name}</h5>
+          <h3 className="card-title">{name}</h3>
           <p className="text-muted">{role}</p>
           <p className="card-text">{bio}</p>
         </div>

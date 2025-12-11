@@ -4,7 +4,7 @@ function PageHeader({ header, subheader }) {
   return (
     <div className="mb-4 page-header">
       <h1 className="display-5 fw-bold">
-        <RoughNotation type="underline" show={true} color="#f6d1d7" strokeWidth={3} iterations={1}>
+        <RoughNotation type="underline" show={true} color="#1b9d88" strokeWidth={3} iterations={1}>
           {header}
         </RoughNotation>
       </h1>

@@ -1,40 +1,37 @@
 function Footer() {
   return (
-    <footer
-      className="mt-5 py-4"
-      style={{ backgroundColor: "var(--ctc-dark-green)", color: "white" }}
-    >
+    <footer className="mt-5 py-4">
       <div className="container text-center">
         <div className="d-flex flex-wrap justify-content-center align-items-center gap-2 mb-2">
           <span>Code to Connect</span>
           <span
             className="d-none d-sm-inline"
-            style={{ color: "var(--ctc-pink)" }}
+            style={{ color: "var(--ctc-medium-green)" }}
           >
             &middot;
           </span>
           <span>University of Wisconsin-Madison</span>
           <span
             className="d-none d-sm-inline"
-            style={{ color: "var(--ctc-pink)" }}
+            style={{ color: "var(--ctc-medium-green)" }}
           >
             &middot;
           </span>
           <a
             href="mailto:codetoconnect.uw@gmail.com"
-            className="text-white text-decoration-none"
+            className="text-decoration-none"
           >
             Email
           </a>
           <span
             className="d-none d-sm-inline"
-            style={{ color: "var(--ctc-pink)" }}
+            style={{ color: "var(--ctc-medium-green)" }}
           >
             &middot;
           </span>
           <a
             href="http://linkedin.com/company/code-to-connect"
-            className="text-white text-decoration-none"
+            className="text-decoration-none"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +40,7 @@ function Footer() {
         </div>
         <p className="mb-0 small">
           &copy; {new Date().getFullYear()} Code to Connect{" "}
-          <span style={{ color: "var(--ctc-pink)" }}>&middot;</span> Made with
+          <span style={{ color: "var(--ctc-medium-green)" }}>&middot;</span> Made with
           ❤️ by Danny
         </p>
       </div>
